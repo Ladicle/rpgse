@@ -1,0 +1,10 @@
+* RPG SE API server
+  RPGなSE音をAPI叩いたら再生するようにするサーバ
+
+** How to run
+   #+BEGIN_SRC shell
+   go run main.go
+   #+END_SRC
+
+** SE入手先
+- ニコニココモンズ
