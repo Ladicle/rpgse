@@ -1,10 +1,19 @@
 * RPG SE API server
   RPGなSE音をAPI叩いたら再生するようにするサーバ
+  soundディレクトリに配置されたmp3音源名がAPIのパスになります
 
 ** How to run
-   #+BEGIN_SRC shell
+   - 直ぐに実行する
+     #+BEGIN_SRC shell
    go run main.go
    #+END_SRC
+
+   - ビルドしてから実行する
+     #+BEGIN_SRC shell
+     go build
+     ./rpgse
+     #+END_SRC
+
 
 ** SE入手先
 - ニコニココモンズ
